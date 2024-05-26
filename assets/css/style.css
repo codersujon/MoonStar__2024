@@ -1929,7 +1929,7 @@ label {
 02. Header
 =============================*/
 .menu__area {
-  padding: 15px 0;
+  padding: 8px 0;
 }
 
 @media (max-width: 1500px) {
@@ -1940,7 +1940,7 @@ label {
 
 @media (max-width: 1199.98px) {
   .menu__area {
-    padding: 25px 0;
+    padding: 20px 0;
   }
 }
 
@@ -1972,12 +1972,12 @@ label {
 }
 
 .menu__area.transparent-header {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: auto;
-  z-index: 99;
+  z-index: 999999999;
 }
 
 .menu__area.sticky-menu {
@@ -1988,7 +1988,7 @@ label {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: var(--white);
+  background-color: var(--white);
   -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -1998,7 +1998,7 @@ label {
 
 @media (max-width: 1199.98px) {
   .menu__area.sticky-menu {
-    padding: 15px 0;
+    padding: 8px 0;
   }
 }
 
@@ -2062,6 +2062,10 @@ label {
   line-height: 1;
   position: relative;
   z-index: 1;
+}
+
+.navbar__wrap ul li a:hover {
+  color: var(--moon-primary) !important;
 }
 
 .navbar__wrap ul li a::after {
@@ -2450,7 +2454,7 @@ label {
 
 @media (max-width: 1920px) {
   .single-slider {
-    min-height: 700px;
+    min-height: 100vh;
   }
 }
 
@@ -2491,9 +2495,10 @@ label {
   transform: translateY(-50%);
   width: 40px;
 	height: 40px;
+  border-radius: 50%;
   background: var(--white);
   color: var(--moon-primary);
-  font-size: 20px;
+  font-size: 18px;
   border: 0;
   cursor: pointer;
   transition: .3s ease-in-out;
@@ -2526,14 +2531,14 @@ label {
 
 .section__title .title {
   margin-bottom: 0;
-  font-size: 43px;
+  font-size: 38px;
   line-height: 1.32;
   letter-spacing: -0.01em;
 }
 
 @media (max-width: 1199.98px) {
   .section__title .title {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 

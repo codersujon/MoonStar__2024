@@ -49,15 +49,21 @@
                         <div class="menu__wrap">
                             <nav class="menu__nav">
                                 <div class="logo">
-                                    <a href="index.html" class="logo__black"><img src="assets/img/logo_black.png"
+                                    <a href="index.php" class="logo__black"><img src="assets/img/logo_black.png"
                                             alt="Moon Star Publicity"></a>
                                     <a href="index.html" class="logo__white"><img src="assets/img/logo_white.png"
                                             alt="Moon Star Publicity"></a>
                                 </div>
                                 <div class="navbar__wrap main__menu d-none d-xl-flex">
                                     <ul class="navigation">
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="#aboutCompany">Our Company</a></li>
+                                        <li class="active"><a href="index.php">Home</a></li>
+                                        <li class="menu-item-has-children"><a href="#aboutCompany">Our Company</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#mvc">Mission</a></li>
+                                                <li><a href="#mvc">Vision</a></li>
+                                                <li><a href="#mvc">Corporate Focus</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#services">Services</a></li>
                                         <li><a href="#portfolio">Portfolio</a></li>
                                         <li><a href="#clients">Clients</a></li>
@@ -114,11 +120,17 @@
         <!-- About Start -->
         <section class="about-area pt-120 pb-90 grey-bg" id="aboutCompany">
             <div class="container">
+            <div class="row">
+                    <div class="col-12">
+                        <div class="section__title text-center mb-80 wow zoomIn" data-wow-delay=".1s">
+                            <h2 class="title">Our Company</h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="habout">
                     <div class="row d-flex justify-content-between">
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="section__title mb-30 wow fadeInUp" data-wow-delay=".2s">
-                                <span class="sub-title">Our Company</span>
                                 <h2 class="title">Company at a glance</h2>
                             </div>
                             <div class="habout__content mb-30 wow fadeInUp" data-wow-delay=".4s">
@@ -129,9 +141,6 @@
                                     Billboard sites throughout the country.</p>
                                 <p>We can assure you that every customer is valuable client to us and can rest the
                                     assurance about the quality of outdoor advertising and printing facilities.</p>
-                                <div class="habout__content-btn mt-40 wow fadeInUp" data-wow-delay=".6s">
-                                    <a href="#MsgProprietor" class="btn">Read More</a>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-12">
@@ -141,7 +150,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="ability mt-80">
+            </div>
+        </section>
+        <!-- About End -->
+        <section  class="ability grey-bg pt-120 pb-90" id="mvc">
+            <div class="container" >
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                             <div class="ability__single mb-30 wow fadeInDown" data-wow-delay=".2s">
@@ -160,7 +173,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
-                            <div class="ability__single mb-30 wow fadeInDown" data-wow-delay=".6s">
+                            <div class="ability__single mb-30 wow fadeInDown" data-wow-delay=".6s" >
                                 <h4>Corporate Focus</h4>
                                 <p>We are enriched with a promising amount of cordial and dedicated staffs and a highly
                                     trained and experienced executive team. We shall always apply high standards of
@@ -170,9 +183,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-        <!-- About End -->
         <!-- Message From Propitor -->
         <section class="MsgProprietor pt-120 pb-120" id="MsgProprietor">
             <div class="container">
@@ -944,9 +955,9 @@
                             </div>
                             <div class="contact__info__content">
                                 <h4 class="title">Mail Address</h4>
-                                <span>info@moonstarpublicity.com</span>
                                 <span>moonstar.amr@gmail.com</span>
-                                <span>help@moonstarpublicity.com</span>
+                                <span>&nbsp;</span>
+                                <span>&nbsp;</span>
                             </div>
                         </div>
                     </div>
@@ -967,61 +978,11 @@
                                 </a>
                             </div>
                             <div class="footer-link">
-                                <p>Complete Solutions of Outdoor Advertising.</p>
+                                <p>Total Solution of Interior & Exterior Works</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-sm-6">
-                        <div class="footer-widget mb-30">
-                            <div class="f-widget-title">
-                                <h2>Our Links</h2>
-                            </div>
-                            <div class="footer-link">
-                                <ul>
-                                    <li>
-                                        <a href="#home">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="#aboutCompany">Our Company</a>
-                                    </li>
-                                    <li>
-                                        <a href="#services">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#portfolio">Portfolio</a>
-                                    </li>
-                                    <li>
-                                        <a href="#clients">Clients</a>
-                                    </li>
-                                    <li>
-                                        <a href="#contact">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-sm-6">
-                        <div class="footer-widget mb-30">
-                            <div class="f-widget-title">
-                                <h2>Get In Touch</h2>
-                            </div>
-                            <div class="f-contact">
-                                <ul>
-                                    <li>
-                                        <font-awesome-icon icon="fa-solid fa-phone" />
-                                        <span>+880 1927-559980 <br>+880 1711-473949 </span>
-                                    </li>
-                                    <li>
-                                        <font-awesome-icon icon="fa-solid fa-envelope" />
-                                        <span>
-                                            <a href="mailto:help@example.com">moonstar.amr@gmail.com</a>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="col-xl-4 col-lg-9 col-sm-6">
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title">
                                 <h2>Our Gallery</h2>
@@ -1048,6 +1009,16 @@
                                             <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="./assets/img/f-galler-04.jpg" class="popup-image">
+                                            <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./assets/img/f-galler-04.jpg" class="popup-image">
+                                            <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -1066,7 +1037,7 @@
                 <div class="row align-items-center">
                     <div class="col-12">
                         <div class="copyright text-sm-center">
-                            <p class="m-0 text-white">Copyright &copy; 2023 <a href="http://www.moonstarpublicity.com/"
+                            <p class="m-0 text-white">Copyright &copy; <?php echo Date("Y");?> <a href="http://www.moonstarpublicity.com/"
                                     class="fw-bold" target="_blank">Moon Star Publicity</a>. All Rights Reserved.</p>
                         </div>
                     </div>
