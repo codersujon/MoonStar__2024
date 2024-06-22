@@ -64,7 +64,28 @@
                                                 <li><a href="#mvc">Corporate Focus</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#services">Services</a></li>
+                                        <li class="menu-item-has-children"><a href="#services">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#mvc">Billboard</a></li>
+                                                <li><a href="#mvc">Digital Printing</a></li>
+                                                <li><a href="#mvc">Neon Sign</a></li>
+                                                <li><a href="#mvc">ACP Branding</a></li>
+                                                <li><a href="#mvc">Profile Light Box</a></li>
+                                                <li><a href="#mvc">Nonlit / Shop Sign</a></li>
+                                                <li><a href="#mvc">3d Signboard</a></li>
+                                                <li><a href="#mvc">LED Display</a></li>
+                                                <li><a href="#mvc">Metal, SS Letter</a></li>
+                                                <li><a href="#mvc">Showroom Branding</a></li>
+                                                <li><a href="#mvc">Market Branding</a></li>
+                                                <li><a href="#mvc">Gift Item</a></li>
+                                                <li><a href="#mvc">Mega Sign</a></li>
+                                                <li><a href="#mvc">Project Board</a></li>
+                                                <li><a href="#mvc">Wall Painting</a></li>
+                                                <li><a href="#mvc">Event Activation</a></li>
+                                                <li><a href="#mvc">POSM</a></li>
+                                                <li><a href="#mvc">Interior Design</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#portfolio">Portfolio</a></li>
                                         <li><a href="#clients">Clients</a></li>
                                         <li><a href="#contact">Contact US</a></li>
@@ -455,7 +476,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-12">
                         <div class="portfolio__inner__nav">
                             <button class="active" data-filter="*">all</button>
@@ -466,7 +487,7 @@
                             <button data-filter=".cat-five">Outdoor Branding</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="portfolio__inner__active">
                     <div class="portfolio__inner__item grid-item cat-one" id="Billboard">
                         <div class="row gx-0 align-items-center">
@@ -661,7 +682,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pagination-wrap">
+                <!-- <div class="pagination-wrap">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
                             <li class="page-item"><a class="page-link" href="#"><i
@@ -674,7 +695,7 @@
                                         class="far fa-long-arrow-right"></i></a></li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- portfolio-area-end -->
@@ -982,44 +1003,77 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-9 col-sm-6">
+
+                    <div class="col-xl-8 col-lg-9 col-sm-12">
                         <div class="footer-widget mb-30">
                             <div class="f-widget-title">
                                 <h2>Our Gallery</h2>
                             </div>
                             <div class="f-insta">
-                                <ul>
-                                    <li>
-                                        <a href="./assets/img/f-galler-01.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-01.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./assets/img/f-galler-02.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-02.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./assets/img/f-galler-03.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-03.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./assets/img/f-galler-04.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./assets/img/f-galler-04.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="./assets/img/f-galler-04.jpg" class="popup-image">
-                                            <img src="./assets/img/f-galler-04.jpg" alt="img" class="rounded">
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_1.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_1.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_2.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_2.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_3.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_3.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_4.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_4.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_5.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_5.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_6.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_6.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_7.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_7.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_8.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_8.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_9.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_9.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_10.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_10.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_11.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_11.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 p-0">
+                                            <a href="./assets/img/gallary/f_gallary_12.jpg" class="popup-image">
+                                                <img src="./assets/img/gallary/f_gallary_14.jpg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1046,6 +1100,10 @@
         </div>
     </footer>
     <!-- Footer-area-end -->
+
+    <!-- Chat APP -->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-bf37969d-c75e-4de4-af3b-6229fa63d29b" data-elfsight-app-lazy></div>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
