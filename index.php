@@ -65,25 +65,26 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children"><a href="#services">Services</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#mvc">Billboard</a></li>
-                                                <li><a href="#mvc">Digital Printing</a></li>
-                                                <li><a href="#mvc">Neon Sign</a></li>
+                                            <ul class="sub-menu portfolio__inner__nav">
+                                                <li><a href="#3dSignboard" data-filter=".cat-one">3d Signboard</a></li>
+                                                <li><a href="#digitalPrinting" data-filter=".cat-two">Digital Printing</a></li>
+                                                <li><a href="#Neon" data-filter=".cat-three">Neon Sign</a></li>
+                                                <li><a href="#eventActivation" data-filter=".cat-four">Event Activation</a></li>
+                                                <li><a href="#interD" data-filter=".cat-five">Interior Design</a></li>
+                                                <li><a href="#MegaSign" data-filter=".cat-six">Mega Sign</a></li>
+                                                <li><a href="#posm" data-filter=".cat-seven">POSM</a></li>
+                                                <li><a href="#NonlitShopSign" data-filter=".cat-eight">Nonlit / Shop Sign</a></li>
+                                                <li><a href="#ProfileLightBox" data-filter=".cat-nine">Profile Light Box</a></li>
+                                                <li><a href="#ProjectBoard" data-filter=".cat-ten">Project Board</a></li>
+                                                <li><a href="#WallPainting" data-filter=".cat-eleven">Wall Painting</a></li>
+                                                
+                                                <!-- 
                                                 <li><a href="#mvc">ACP Branding</a></li>
-                                                <li><a href="#mvc">Profile Light Box</a></li>
-                                                <li><a href="#mvc">Nonlit / Shop Sign</a></li>
-                                                <li><a href="#mvc">3d Signboard</a></li>
                                                 <li><a href="#mvc">LED Display</a></li>
                                                 <li><a href="#mvc">Metal, SS Letter</a></li>
                                                 <li><a href="#mvc">Showroom Branding</a></li>
                                                 <li><a href="#mvc">Market Branding</a></li>
-                                                <li><a href="#mvc">Gift Item</a></li>
-                                                <li><a href="#mvc">Mega Sign</a></li>
-                                                <li><a href="#mvc">Project Board</a></li>
-                                                <li><a href="#mvc">Wall Painting</a></li>
-                                                <li><a href="#mvc">Event Activation</a></li>
-                                                <li><a href="#mvc">POSM</a></li>
-                                                <li><a href="#mvc">Interior Design</a></li>
+                                                <li><a href="#mvc">Gift Item</a></li> -->
                                             </ul>
                                         </li>
                                         <li><a href="#portfolio">Portfolio</a></li>
@@ -258,15 +259,14 @@
                 </div>
                 <div class="services__style__two__wrap">
                     <div class="row gx-0">
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s">
-                            <div class="services__style__two__item ">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".4s">
+                            <div class="services__style__two__item">
                                 <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon01.png" alt="Moon Star Publicity">
+                                    <img src="assets/img/icons/services_light_icon04.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="#Billboard">Billboard</a></h3>
-                                    <a href="#Billboard" class="services__btn"><i
-                                            class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#3dSignboard">3d Signboard</a></h3>
+                                    <a href="#3dSignboard" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -276,8 +276,8 @@
                                     <img src="assets/img/icons/services_light_icon02.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Digital Printing</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#digitalPrinting">Digital Printing</a></h3>
+                                    <a href="#digitalPrinting" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -287,20 +287,30 @@
                                     <img src="assets/img/icons/services_light_icon03.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Neon Sign</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#Neon">Neon Sign</a></h3>
+                                    <a href="#Neon" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
                             <div class="services__style__two__item">
                                 <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon05.png" alt="Moon Star Publicity">
+                                    <img src="assets/img/icons/services_light_icon02.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="#IndoorBranding">ACP Branding</a></h3>
-                                    <a href="#IndoorBranding" class="services__btn"><i
-                                            class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#eventActivation">Event Activation</a></h3>
+                                    <a href="#eventActivation" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".9s">
+                            <div class="services__style__two__item">
+                                <div class="services__style__two__icon">
+                                    <img src="assets/img/icons/services_light_icon04.png" alt="Moon Star Publicity">
+                                </div>
+                                <div class="services__style__two__content">
+                                    <h3 class="title"><a href="">Interior Design</a></h3>
+                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -310,8 +320,8 @@
                                     <img src="assets/img/icons/services_light_icon06.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Profile Light Box</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#ProfileLightBox">Profile Light Box</a></h3>
+                                    <a href="#ProfileLightBox" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -321,19 +331,41 @@
                                     <img src="assets/img/icons/services_light_icon05.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Nonlit / Shop Sign</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#NonlitShopSign">Nonlit / Shop Sign</a></h3>
+                                    <a href="#NonlitShopSign" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".4s">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
                             <div class="services__style__two__item">
                                 <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon04.png" alt="Moon Star Publicity">
+                                    <img src="assets/img/icons/services_light_icon05.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">3d Signboard</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#MegaSign">Mega Sign</a></h3>
+                                    <a href="#MegaSign" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
+                            <div class="services__style__two__item">
+                                <div class="services__style__two__icon">
+                                    <img src="assets/img/icons/services_light_icon06.png" alt="Moon Star Publicity">
+                                </div>
+                                <div class="services__style__two__content">
+                                    <h3 class="title"><a href="#ProjectBoard">Project Board</a></h3>
+                                    <a href="#ProjectBoard" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
+                            <div class="services__style__two__item">
+                                <div class="services__style__two__icon">
+                                    <img src="assets/img/icons/services_light_icon01.png" alt="Moon Star Publicity">
+                                </div>
+                                <div class="services__style__two__content">
+                                    <h3 class="title"><a href="#WallPainting">Wall Painting</a></h3>
+                                    <a href="#WallPainting" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -345,6 +377,18 @@
                                 <div class="services__style__two__content">
                                     <h3 class="title"><a href="#LEDLight">LED Display</a></h3>
                                     <a href="#LEDLight" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s">
+                            <div class="services__style__two__item">
+                                <div class="services__style__two__icon">
+                                    <img src="assets/img/icons/services_light_icon05.png" alt="Moon Star Publicity">
+                                </div>
+                                <div class="services__style__two__content">
+                                    <h3 class="title"><a href="#IndoorBranding">ACP Branding</a></h3>
+                                    <a href="#IndoorBranding" class="services__btn"><i
                                             class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -395,69 +439,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
-                            <div class="services__style__two__item">
-                                <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon05.png" alt="Moon Star Publicity">
-                                </div>
-                                <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Mega Sign</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
-                            <div class="services__style__two__item">
-                                <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon06.png" alt="Moon Star Publicity">
-                                </div>
-                                <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Project Board</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
-                            <div class="services__style__two__item">
-                                <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon01.png" alt="Moon Star Publicity">
-                                </div>
-                                <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Wall Painting</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".8s">
-                            <div class="services__style__two__item">
-                                <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon02.png" alt="Moon Star Publicity">
-                                </div>
-                                <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Event Activation</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".9s">
                             <div class="services__style__two__item">
                                 <div class="services__style__two__icon">
                                     <img src="assets/img/icons/services_light_icon03.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="#">POSM</a></h3>
-                                    <a href="#" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#posm">POSM</a></h3>
+                                    <a href="#posm" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".9s">
-                            <div class="services__style__two__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-delay=".2s">
+                            <div class="services__style__two__item ">
                                 <div class="services__style__two__icon">
-                                    <img src="assets/img/icons/services_light_icon04.png" alt="Moon Star Publicity">
+                                    <img src="assets/img/icons/services_light_icon01.png" alt="Moon Star Publicity">
                                 </div>
                                 <div class="services__style__two__content">
-                                    <h3 class="title"><a href="">Interior Design</a></h3>
-                                    <a href="" class="services__btn"><i class="far fa-long-arrow-right"></i></a>
+                                    <h3 class="title"><a href="#Billboard">Billboard</a></h3>
+                                    <a href="#Billboard" class="services__btn"><i
+                                            class="far fa-long-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -488,35 +489,21 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="portfolio__inner__active">
-                    <div class="portfolio__inner__item grid-item cat-one" id="Billboard">
+
+                    <div class="portfolio__inner__item grid-item cat-one" id="3dSignboard">
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Billboard-1.jpg" alt="Billboard">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (1).jpg" alt="Billboard">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Samsung Showroom Based Khan</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio__inner__item grid-item cat-one">
-                        <div class="row gx-0 align-items-center">
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Billboard-2.jpg" alt="Billboard">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (2).jpg" alt="Billboard">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Billboard, Mamar Bazar Zaflong</a></h2>
                                 </div>
                             </div>
                         </div>
@@ -525,62 +512,88 @@
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Billboard-3.jpg" alt="Billboard">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (6).jpg" alt="Billboard">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Apex Design, Vanga Moor, Faridpur.</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (3).jpg" alt="Billboard">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio__inner__item grid-item cat-two" id="IndoorBranding">
+                    <div class="portfolio__inner__item grid-item cat-one">
                         <div class="row gx-0 align-items-center">
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Indoor Branding-1.jpg" alt="Indoor Branding">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (5).jpg" alt="Billboard">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Oppo, Indoor Branding Design</a></h2>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/3d_ (4).jpg" alt="Billboard">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio__inner__item grid-item cat-two">
+                    <div class="portfolio__inner__item grid-item cat-two" id="digitalPrinting">
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Indoor Branding-2.jpg" alt="Indoor Branding">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/dp_1.jpg" alt="Billboard">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Vivo, Indoor Branding Design</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/dp_2.jpg" alt="Billboard">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio__inner__item grid-item cat-four" id="GiftItem">
+                    <div class="portfolio__inner__item grid-item cat-three" id="Neon">
                         <div class="row gx-0 align-items-center">
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/gift-1.jpg" alt="Gift Item">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/neon_1.jpg" alt="Billboard">
                                     </a>
                                 </div>
                             </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#Billboard">
+                                        <img src="./assets/img/portfolio/neon_2.jpg" alt="Billboard">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-four" id="eventActivation">
+                        <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Gift Item Design For</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_2.jpg" alt="Event Activation">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_1.jpg" alt="Event Activation">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -589,30 +602,52 @@
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/gift-2.jpg" alt="Gift Item">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_4.jpg" alt="Event Activation">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Gift Item Design For</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_6.jpg" alt="Event Activation">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio__inner__item grid-item cat-five" id="OutdoorBranding">
+                    <div class="portfolio__inner__item grid-item cat-four">
                         <div class="row gx-0 align-items-center">
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Outdoor Branding-1.jpg" alt="Outdoor Branding">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_3.jpg" alt="Event Activation">
                                     </a>
                                 </div>
                             </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/ea_5.jpg" alt="Event Activation">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-five" id="interD">
+                        <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Apex Outdoor Branding Design</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (1).jpeg" alt="Interior Design">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (1).jpg" alt="Interior Design">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -621,67 +656,183 @@
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Outdoor Branding-2.jpg" alt="Outdoor Branding">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (2).jpeg" alt="Interior Design">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Sotota Outdoor Branding Design</a></h2>
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (3).jpeg" alt="Interior Design">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="portfolio__inner__item grid-item cat-five">
                         <div class="row gx-0 align-items-center">
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/Outdoor Branding-3.jpg" alt="Outdoor Branding">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (4).jpeg" alt="Interior Design">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">Janata Outdoor Branding Design</a></h2>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#eventActivation">
+                                        <img src="./assets/img/portfolio/id (5).jpeg" alt="Interior Design">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio__inner__item grid-item cat-three" id="LEDLight">
+                    <div class="portfolio__inner__item grid-item cat-six" id="MegaSign">
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/LED Lightbox-1.jpg" alt="LED Lightbox">
+                                    <a href="#MegaSign">
+                                        <img src="./assets/img/portfolio/ms_1.jpg" alt="Mega Sign">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">LED LightBox & Neon</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio__inner__item grid-item cat-three">
-                        <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="#">
-                                        <img src="./assets/img/LED Lightbox-2.jpg" alt="LED Lightbox">
+                                    <a href="#MegaSign">
+                                        <img src="./assets/img/portfolio/ms_2.jpg" alt="Mega Sign">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
-                                <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="#">LED LightBox & Neon</a></h2>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="portfolio__inner__item grid-item cat-seven" id="posm">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/posm_1.jpg" alt="Mega Sign">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/posm_2.jpg" alt="Mega Sign">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-seven">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/posm_4.jpg" alt="Mega Sign">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/posm_3.jpg" alt="Mega Sign">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-eight" id="NonlitShopSign">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/nss_1.jpg" alt="Nonlit Shop Sign">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/nss_2.jpg" alt="Nonlit Shop Sign">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-nine" id="ProfileLightBox">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/plb_1.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/plb_2.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-nine">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/plb_3.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/plb_4.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-ten" id="ProjectBoard">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/pb_1.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/pb_2.jpg" alt="Profile Light Box">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__inner__item grid-item cat-eleven" id="WallPainting">
+                        <div class="row gx-0 align-items-center">
+                            <div class="col-lg-6 wow slideInLeft" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/wp_1.jpg" alt="Wall Painting">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInRight" data-wow-delay=".2s" data-wow-duration="1.5s">
+                                <div class="portfolio__inner__thumb">
+                                    <a href="#posm">
+                                        <img src="./assets/img/portfolio/wp_2.jpg" alt="Wall Painting">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 <!-- <div class="pagination-wrap">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
