@@ -2443,11 +2443,29 @@ label {
 .single-slide-4{
   background-image: url("../img/slider/slider-bg-4.jpg");
 }
+
 .single-slide-5{
   background-image: url("../img/slider/slider-bg-5.jpg");
 }
+
 .single-slide-6{
   background-image: url("../img/slider/slider-bg-6.jpg");
+}
+
+.single-slide-7{
+  background-image: url("../img/slider/slider-bg-7.jpg");
+}
+
+.single-slide-8{
+  background-image: url("../img/slider/slider-bg-8.jpg");
+}
+
+.single-slide-9{
+  background-image: url("../img/slider/slider-bg-9.jpg");
+}
+
+.single-slide-10{
+  background-image: url("../img/slider/slider-bg-10.jpg");
 }
 
 

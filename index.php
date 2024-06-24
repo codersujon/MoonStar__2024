@@ -133,7 +133,7 @@
         <section class="slider-area">
             <div class="single-slider single-slide-1 pt-120 pb-120"></div>
             <div class="single-slider single-slide-2 pt-120 pb-120"></div>
-            <div class="single-slider single-slide-3 pt-120 pb-120"></div>
+            <div class="single-slider single-slide-7 pt-120 pb-120"></div>
             <div class="single-slider single-slide-4 pt-120 pb-120"></div>
             <div class="single-slider single-slide-5 pt-120 pb-120"></div>
             <div class="single-slider single-slide-6 pt-120 pb-120"></div>
